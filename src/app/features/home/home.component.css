@@ -1,0 +1,19 @@
+
+#mapContainer {
+  width: 80vw;
+  height: 95vh;  
+}
+
+.home-content {
+  background-color: var(--quaternary-color);
+}
+
+.loadingContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%, -50%);
+}
+
+

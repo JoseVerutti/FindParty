@@ -1,0 +1,22 @@
+<div class="home-content d-flex justify-content-center align-items-center w-100 p-5 gap-5">
+
+    
+
+    <app-phone>
+
+        <div [hidden]="!isLoading" class="loadingContainer">
+            <app-loading></app-loading>
+        </div>
+        <div id="mapContainer" style="width: 100%; height: 100%; top:-30px;">
+            </div>
+    </app-phone>
+
+    <div class="d-flex flex-column align-items-center justify-content-center">
+        <h1>
+            FindParty
+        </h1>
+        <p>
+            ¡Bienvenido a FindParty!
+        </p>
+    </div>
+</div>

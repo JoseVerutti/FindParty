@@ -1,0 +1,56 @@
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(15deg);
+    }
+
+    
+    75% {
+        transform: rotate(-10deg);
+    }
+
+    
+}
+
+
+.margarita-image {
+    width: 100px;
+    height: auto;
+    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) infinite;
+    transform-origin: bottom center;
+}
+
+
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7FAFC;
+    font-family: 'Inter', sans-serif;
+    z-index: 10;
+    
+}
+
+
+.loading-text {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    color: #4A5568;
+    font-weight: 500;
+}
+
+
+.margarita-image-shadow {
+    width: 80px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin: 5px auto 0;
+    filter: blur(3px);
+}
