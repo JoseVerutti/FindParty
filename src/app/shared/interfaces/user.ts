@@ -3,10 +3,11 @@ import { Party } from "./party";
 
 export interface User {
 
-    id: UUID;
+    id?: UUID;
     name: string;
     email: string;
     password: string;
-    partys: Party[];
+    image?: string;
+    partys?: Party[];
 }
 

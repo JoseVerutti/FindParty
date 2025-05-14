@@ -15,4 +15,15 @@ export const routes: Routes = [
       },
     ]
   },
+  {
+    path: '', 
+    component: MainLayoutComponent, 
+    children: [ 
+      {
+        path: 'hola', 
+        component: HomeComponent, 
+        title: 'Inicio - FindParty' 
+      },
+    ]
+  },
 ];

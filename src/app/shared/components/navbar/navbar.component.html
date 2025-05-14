@@ -1,0 +1,12 @@
+<div class="card">
+    <p-menubar [model]="items">
+        <ng-template #start>
+        </ng-template>
+        <ng-template #end>
+            <div class="d-flex items-center gap-2 justifi-content-center aling-items-center"> 
+                <input type="text" pInputText placeholder="Search" class="w-36" />
+                <p-avatar image="{{user?.image}}" shape="circle" size="large"></p-avatar>
+            </div>
+        </ng-template>
+    </p-menubar>
+</div>
